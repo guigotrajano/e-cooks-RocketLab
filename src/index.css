@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Coustard;
+  src: url(../src/assets/fonts/Coustard-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../src/assets/fonts/InterTight-VariableFont_wght.ttf);
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-coustard: Coustard, "sans-serif";
+  --font-inter: Inter, "sans-serif";
+}
+
+
